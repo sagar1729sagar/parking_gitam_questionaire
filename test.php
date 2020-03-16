@@ -1,7 +1,9 @@
 <?php
 require_once('safe_redirect.php');
+//print_r($_POST);
 if (isset($_POST['submit'])) {
 if(!empty($_POST['q2'])){
+
 echo "<span>You have selected :<b> ".$_POST['q2']."</b></span>";
 
 if($_POST['q2']=='yes'){
@@ -12,7 +14,7 @@ echo "<html>
 
 
 </body>
- <form action='thank.php' method='post'>
+ <form action='thank.php?user=".$_POST['optradio']."&living_outside_campus=".$_POST['q2']."' method='post'>
 
 
 
@@ -214,7 +216,8 @@ echo "<html>
  </html>";
 }
  else{
- echo "<html><h1>Thank you</h1></html>";
+  safe_redirect('thank.php?user='.$_POST['optradio'].'&living_outside_campus='.$_POST['q2']);
+// echo "<html><h1>Thank you</h1></html>";
  }
 } else {
   echo "You didnot select answers for all questions. Please go back and select answers for all questions";

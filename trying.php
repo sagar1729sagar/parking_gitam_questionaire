@@ -15,19 +15,19 @@
 
 <P style="color:ForestGreen; font-size:100%; font-family:verdana;">1. Are you a:<BR></p>
 <label class="radio-inline">
-      <input type="radio" name="optradio" checked>Student
+      <input type="radio" name="optradio" value="Student" checked>Student
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">Research Scholar
+      <input type="radio" name="optradio" value="Research Scholor">Research Scholar
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">Teaching Faculty
+      <input type="radio" name="optradio" value="Teaching Faculty">Teaching Faculty
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">Non-Teaching Staff
+      <input type="radio" name="optradio" value="Non-Teaching Staff">Non-Teaching Staff
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">Employee of Contractor
+      <input type="radio" name="optradio" value="Employee of contractor">Employee of Contractor
     </label>
 
 
