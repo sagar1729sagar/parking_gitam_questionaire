@@ -155,8 +155,8 @@ echo "<html>
 </p>
 
 <P style='color:ForestGreen; font-size:100%; font-family:verdana;'>16.If the vehicle is not entering the campus:<BR></p>
-<input type='radio' name='drop_status'>Does it leave after dropping you<BR>
-<input type='radio' name='drop_status' value='Does it remain for you till end of the day'>Does it remain for you till end of the day<BR>
+<input type='radio' name='drop_status' value = 'Leave you after dropping' >Does it leave after dropping you<BR>
+<input type='radio' name='drop_status' value='Remain for you till end of the day'>Does it remain for you till end of the day<BR>
 </p>
 
 
