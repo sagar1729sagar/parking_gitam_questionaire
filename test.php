@@ -75,7 +75,7 @@ echo "<html>
 <p style='color:ForestGreen; font-size:100%; font-family:verdana;'>8.How do you commute to campus: <SELECT NAME='commute_to_campus' ></p>
 <OPTION SELECTED VALUE=''>select
 <option value='City bus'>City bus</option>
-<option value='RTC bus for Gitamites'>RTC bus for Gitamites</option>
+<option value='RTC bus for GITAMites'>RTC bus for GITAMite's</option>
 <option value='Private Van or Minibus'>Private Van or Minibus</option>
 <option value='Three-wheeler'>Three-wheeler</option>
 <option value='Car'>Car</option>
@@ -85,10 +85,10 @@ echo "<html>
 <option value='By foot'>By foot</option> </SELECT>
 </p>
 
-<p style='color:ForestGreen; font-size:100%; font-family:verdana;'>9.How do you leave the entry gate at end of the day: <SELECT NAME='commute_from_campus' ></p>
+<p style='color:ForestGreen; font-size:100%; font-family:verdana;'>9.How do you leave  at end of the day: <SELECT NAME='commute_from_campus' ></p>
 <OPTION SELECTED VALUE=''>select
 <option value='City bus'>City bus</option>
-<option value='RTC bus for Gitamites'>RTC bus for Gitamites</option>
+<option value='RTC bus for GITAMite's'>RTC bus for GITAMite's</option>
 <option value='Private Van or Minibus'>Private Van or Minibus</option>
 <option value='Three-wheeler'>Three-wheeler</option>
 <option value='Car'>Car</option>
@@ -98,7 +98,7 @@ echo "<html>
 <option value='By foot'>By foot</option> </SELECT>
 </p>
 
-<p style='color:ForestGreen; font-size:100%; font-family:verdana;'>10.Do you offer pool-rides to any other GITAMites:<BR></p>
+<p style='color:ForestGreen; font-size:100%; font-family:verdana;'>10.Do you offer pool-rides to any other GITAMite's:<BR></p>
 <input type='radio' name='pool_ride' value='No'>No<BR>
 <input type='radio' name='pool_ride' value='Yes'>Yes<BR>
 </p>
@@ -114,17 +114,8 @@ echo "<html>
 </p>
 
 
-<p style='color:ForestGreen; font-size:100%; font-family:verdana;'>9.How do you leave the entry gate at end of the day: <SELECT NAME='reach_time' ></p>
-<OPTION SELECTED VALUE=''>select
-<option value='6 AM to 8 AM'>6 AM to 8 AM</option>
-<option value='8:15 AM to 8:30 AM'>8:15 AM to 8:30 AM</option>
-<option value='8:30 AM to 8:45 AM'>8:30 AM to 8:45 AM</option>
-<option value='8:45 AM to 9 AM'>8:45 AM to 9 AM</option>
-<option value='9 AM to 1 PM'>9 AM to 1 PM</option>
-<option value='After 1PM'>After 1PM</option></SELECT>
-</p>
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>14. What time do you typically leave the campus: <SELECT NAME='exit_time' ></p>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>13. What time do you typically leave the campus: <SELECT NAME='exit_time' ></p>
 <OPTION SELECTED VALUE=''>select
 <option value='1 PM to 3: 30 PM'>1 PM to 3: 30 PM</option>
 <option value='3:30 PM to 4 PM'>3:30 PM to 4 PM</option>
@@ -137,7 +128,7 @@ echo "<html>
 
 </p>
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>15.Where do you typically alight from the vehicle: <SELECT NAME='alighting point' ><BR></p>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>14.Where do you typically alight from the vehicle: <SELECT NAME='alighting point' ><BR></p>
 <OPTION SELECTED VALUE=''>select
 <option value='Outside the Campus'>Outside the Campus</option>
 <option value='Around Gitam centre'>Around Gitam centre</option>
@@ -154,14 +145,14 @@ echo "<html>
 <option value='Near hospital'>near hospital</option> </SELECT>
 </p>
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>16.If the vehicle is not entering the campus:<BR></p>
-<input type='radio' name='drop_status' value = 'Leave you after dropping' >Does it leave after dropping you<BR>
-<input type='radio' name='drop_status' value='Remain for you till end of the day'>Does it remain for you till end of the day<BR>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>15.If the vehicle is not entering the campus:<BR></p>
+<input type='radio' name='drop_status' value = 'Leaves  after dropping' > leaves after dropping <BR>
+<input type='radio' name='drop_status' value='Remains till end of the day'> remains till end of the day<BR>
 </p>
 
 
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>17.Where is it parked: <SELECT NAME='parking_location' ><BR></p>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>16.Where is it parked: <SELECT NAME='parking_location' ><BR></p>
 <OPTION SELECTED VALUE=''>select
 <option value='Outside the Campus'>Outside the Campus</option>
 <option value='Around Gitam centre'>Around Gitam centre</option>
@@ -178,7 +169,7 @@ echo "<html>
 <option value='Near hospital'>near hospital</option> </SELECT>
 </p>
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>18.Which type of vehicle brand do you commute on: <SELECT NAME='Vehicle Brand' ><BR></p>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>17.Which type of vehicle brand do you commute on: <SELECT NAME='Vehicle Brand' ><BR></p>
 <OPTION SELECTED VALUE=''>select
 <option value='Audi'>Audi</option>
 <option value='Benz'>Benz</option>
@@ -202,11 +193,11 @@ echo "<html>
 <option value='Volvo'>Volvo</option> </SELECT>
 </p>
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>19. Please enter the vehicle model type:<textarea name='Vehicle Model' rows='1' cols='40'></textarea>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>18. Please enter the vehicle model type:<textarea name='Vehicle Model' rows='1' cols='40'></textarea>
  <BR></p>
 </p>
 
-<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>20.Please enter the vehicle registration number:<textarea name='Vehicle Registration Number' rows='1' cols='40'></textarea>
+<P style='color:ForestGreen; font-size:100%; font-family:verdana;'>19.Please enter the vehicle registration number:<textarea name='Vehicle Registration Number' rows='1' cols='40'></textarea>
  <BR></p>
 </p>
 
